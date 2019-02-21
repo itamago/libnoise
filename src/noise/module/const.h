@@ -80,6 +80,9 @@ namespace noise
 
         virtual double GetValue (double x, double y, double z) const
         {
+            (void)(x); // unused
+            (void)(y); // unused
+            (void)(z); // unused
           return m_constValue;
         }
 

@@ -362,6 +362,7 @@ namespace noise
         /// copied as well.
         const Module& operator= (const Module& m)
         {
+            (void)(m); // unused
           return *this;
         }
 

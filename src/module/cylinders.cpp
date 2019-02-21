@@ -33,6 +33,7 @@ Cylinders::Cylinders ():
 
 double Cylinders::GetValue (double x, double y, double z) const
 {
+    (void)(y); // unused
   x *= m_frequency;
   z *= m_frequency;
 
